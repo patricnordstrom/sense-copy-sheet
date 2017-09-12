@@ -1,0 +1,10 @@
+{
+	"name": "Sense Copy Sheet",
+	"description": "Alllows to copy sheets with all objects from one app to another",
+	"type": "visualization",
+	"version": "1",
+	"icon": "filterpane",
+	"author" : "Mathias Schindler",
+	"homepage" : "http://www.standardit.at",
+    "dependencies" : { "qlik-sense" : ">=3.0.x" }
+}
