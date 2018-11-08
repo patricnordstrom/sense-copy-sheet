@@ -31,7 +31,7 @@ define(["qlik"], function (qlik) {
 			var currentApp = qlik.currApp();
 
 			// fill select-list with qlik sense applications
-			qlik.getAppList(function(apps) {
+			currentApp.global.getAppList(function(apps) {
 				apps.forEach(function(app) {
 					appSelect.append($('<option>')
 										.val(app.qDocId)
